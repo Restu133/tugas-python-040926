@@ -1,0 +1,5 @@
+print("===KALKULATOR HARGA DISKON===")
+harga_awal = int(input("Masukkan harga awal barang: Rp "))
+persen_diskon = int(input("Masukkan persentase diskon (tanpa tanda): %"))
+harga_akhir= harga_awal- (harga_awal*persen_diskon / 100)
+print("Harga setelah diskon: Rp",harga_akhir)
